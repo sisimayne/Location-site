@@ -1,0 +1,283 @@
+body {
+    max-width: 1000vh;
+}
+
+.pagedescriptif {
+    max-width: 1000vh;
+    margin-top: 79px;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.pagedescriptif h1 {
+    color: black;
+}
+
+.pagedescriptif p {
+    color: rgb(99, 97, 97);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.maincontent {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.images {
+    display: flex;
+    height: 286px;
+}
+
+.sec1 {
+    height: 100%;
+    width: 50%;
+}
+
+.sec2 {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(21, 70, 204);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.detail {
+    height: 900px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 100% 100%;
+}
+
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rate {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.rate p {
+    color: black;
+}
+
+.boxrate {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 6px;
+    margin-right: 9Px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.bedrooms {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.grppopularamenities {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.popularamenities {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100% 100%;
+}
+
+.popularamenities1 {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.popularamenities2 {
+    display: flex;
+    gap: 9px;
+    flex-direction: column;
+}
+
+.part2 {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    position: relative;
+}
+
+hr {
+    width: 100%;
+    margin-top: 10px;
+   
+    border-color: black;
+}
+
+.box {
+    height: 400px;
+    width: 300Px;
+    border: 1Px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 1px 1px 20px black;
+}
+
+.box p,div,span,h4 {
+    color: black;
+}
+
+.ligne1 {
+    display: flex;
+    gap: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.datedepart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 130px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 15px;
+
+}
+
+.inp {
+    height: 48px;
+    border-radius: 15px;
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    padding: 23Px;
+}
+
+.datte {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 3000px;
+    opacity: 0;
+}
+
+.depart {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.depart1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btndiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    height: 50px;
+    width: 140px;
+    border: none;
+    background-color: yellowgreen;
+    border-radius: 12px;
+
+}
+
+.descrptif {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text h3,
+h2 {
+    color: black;
+    margin-top: 12px;
+}
+
+.text h3 {
+    color: black;
+    margin-left: 12px;
+}
+
+.textmain {
+    width: 600px;
+    margin-left: 30px;
+}
+@media screen and (max-width: 1240px) {
+         
+    .images{
+        width: 100%;
+    }
+    .maincontent{
+        height: 290vh;
+        width: 100%;
+    }
+    .detail{
+        display: flex;
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .part2{
+        height: 190vh;
+    }
+    .textmain{
+        width: 90%;
+        font-size: 1rem;
+    }
+  }
+ 

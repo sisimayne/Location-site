@@ -1,0 +1,357 @@
+        .interface {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          margin-top: 80px;
+          height: 500px;
+          width: 100%;
+        }
+
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+
+        }
+
+        .searchbar {
+          display: flex;
+          align-items: center;
+          border: 1 px solid black;
+          padding: 10px;
+          border-radius: 13px;
+          background-color: rgba(255, 255, 255, 0.568);
+          z-index: 1;
+          box-shadow: 2px 2px 30px rgb(0, 0, 0);
+          height: 100px;
+          width:1000px;
+        }
+
+        .he {
+          display: flex;
+          align-items: center;
+          width: 100%;
+        }
+
+        .input-field {
+          padding: 10px;
+          margin-right: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          font-size: 16px;
+          width: 200px;
+          color: black;
+          height: 40px;
+          margin-left: 6px;
+          outline: none;
+        }
+
+        .btn {
+          background-color: rgb(192, 243, 6);
+          color: black;
+          padding: 10px 20px;
+          font-size: 16px;
+          border-radius: 4px;
+          border: none;
+          height: 40px;
+          cursor: pointer;
+          transition: 0.4S;
+        }
+
+        .btn:hover {
+          background-color: rgb(163, 206, 10);
+        }
+
+
+        .aceuill_img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          position: absolute;
+          filter: brightness(0.8);
+        }
+
+        .phrase {
+          color: black;
+          font-size: 25px;
+          z-index: 1;
+          margin-bottom: 160px;
+          font-weight: bold;
+          font-family: "Roboto Mono", monospace;
+          font-optical-sizing: auto;
+          letter-spacing: 1px;
+        }
+
+        .box {
+          display: flex;
+          align-items: center;
+          margin-top: 20px;
+          width: 1200Px;
+          height: 92px;
+          background-color: rgb(11, 14, 40);
+          border-radius: 10PX;
+          padding: 12px 10px;
+          box-shadow: 1Px 1PX 20Px rgb(36, 36, 36);
+          justify-content: space-between;
+        }
+
+        .sec1 {
+          display: flex;
+          align-items: center;
+
+        }
+
+        .fa-slack {
+          font-size: 40px;
+          margin-right: 19px;
+        }
+
+        .sing_in {
+          width: 100px;
+          height: 50px;
+          background-color: rgb(0, 0, 0);
+          border-radius: 4px;
+          margin-right: 10px;
+          border: none;
+          font-size: 18px;
+          box-shadow: 0Px 0PX 5Px rgba(255, 255, 255, 0.442);
+
+        }
+
+        /*categorie*/
+        .catégorie {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .mainbox {
+          margin-top: 10PX;
+          display: flex;
+          flex-direction: column;
+          height: 450px;
+          width: 90%;
+          padding: 12Px;
+          overflow: hidden;
+        }
+
+        .title1 {
+          color: black;
+          margin-bottom: 40px;
+        }
+
+        .boutonimage {
+          width: 222px;
+          height: 296px;
+          box-shadow: 3px 3px 20px black;
+          border-radius: 10px;
+          position: relative;
+          overflow: hidden;
+          display: inline-block;
+          margin-left: 30Px;
+          transition: 0.4s;
+        }
+
+        .boutonimage:hover {
+          width: 300px;
+          height: 300px;
+        }
+
+        .imagecar {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          position: absolute;
+        }
+
+        .name {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          color: white;
+          font-size: 20px;
+          position: absolute;
+          padding: 12px;
+          bottom: 0;
+        }
+
+        /*paiment*/
+        .paiment {
+          margin-top: 10PX;
+          display: flex;
+          flex-direction: column;
+          height: 600px;
+          width: 85%;
+          padding: 12Px;
+        }
+
+        .boxpaiment {
+          display: grid;
+          grid-template-columns: 340px 340px 340px;
+          width: 100%;
+          max-height: 70vh;
+        }
+
+        .produit {
+
+          height: 430px;
+          width: 320px;
+          border-radius: 10px;
+          box-shadow: 3px 3px 20px black;
+          margin-left: 20px;
+          overflow: hidden;
+          display: flex;
+          flex-direction: column;
+
+        }
+
+        .imageproduit {
+          width: 100%;
+          height: 50%;
+        }
+
+        .image {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        .deteilproduit {
+          display: flex;
+          flex-direction: column;
+          gap: 10Px;
+          width: 100%;
+          height: 50%;
+          padding: 10Px;
+        }
+
+        .rate {
+          display: flex;
+          align-items: center;
+        }
+
+        .rate p {
+          color: black;
+        }
+
+        .boxrate {
+          height: 40px;
+          width: 40px;
+          background-color: black;
+          border-radius: 6px;
+          margin-right: 9Px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        
+
+
+        .namec {
+          color: black;
+          font-weight: bold;
+          font-size: 15px;
+          width: 100%;
+        }
+        .namecar{
+          display: flex;
+          gap: 10px;
+          flex-direction: column;
+          height: 100px;
+        }
+
+        .madeby {
+          font-size: 17px;
+          font-weight: 400;
+          color: gray;
+          margin-left: 60px;
+          margin-top: 6px;
+          letter-spacing: 2px;
+
+        }
+
+        .dollor {
+          font-size: 30px;
+          color: black;
+        }
+
+        .prix {
+          display: flex;
+          align-items: center;
+          justify-content: end;
+        }
+
+        .prixcar {
+          color: rgb(0, 0, 0);
+          font-size: 20px;
+        }
+        @media screen and (max-width: 1240px) {
+         
+          .interface{
+            width: 100%;
+            height:600px;
+          }
+          .boxdiv{
+            width: 80%;
+          }
+          .searchbar{
+            flex-direction: column;
+            width: 70%;
+            height: 60%;
+            align-items: center;
+            justify-content: space-around;
+  
+          }
+          .input-field{
+            width: 100%;
+          }
+          .hello{
+            width: 90%;
+          }
+          .box{
+            width: 100%;
+            font-size: 0.75rem;
+          }
+          .catégorie{
+  
+          }
+          .title1{
+            font-size: 1rem;
+          }
+          .mainbox{
+            height: 70%;
+            width: 100%;
+          }
+          .boxcar{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          }
+         
+          .boutonimage{
+            
+            margin-bottom: 12px;
+          
+          }
+          .boxpaiment{
+            height: 70%;
+            width: 100%;
+  
+          }
+           
+            
+          .boxpaiment{
+           grid-template-columns: auto  ;
+           grid-template-rows: auto ;
+          }
+      
+          .produit{
+            margin-top: 19px;
+          }
+          .paiment{
+            height: 150vh;
+          }
+        }
+       
